@@ -3,16 +3,36 @@ h1
     color: red;
 }
 
-body
-{
-    background-color: yellow;
+body {
+    background-image: url('image/namek.jpg'); /* Syntaxe correcte pour background-image */
+    /* Ajoutez ici d'autres propriétés de gestion du fond au besoin */
 }
 
-#carte
-{
+#carte h1{
     width: 800px;
-    margin:0 auto;
+    margin: 0 auto; /* Centrer le titre h1 horizontalement */
+    background-color: transparent;
+    text-align: center;
+}
+
+#carte p{
+    width: 800px;
+    margin: 0 auto; /* Centrer le titre h1 horizontalement */
     background-color: white;
     text-align: center;
-    align-content: center;
+}
+
+#carte img {
+    display: block; /* Rend l'image traitée comme un bloc pour permettre le centrage horizontal */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    width: 200px; /* Largeur de l'image réduite */
+    height: auto; /* Ajuste la hauteur pour conserver les proportions */
+}
+
+#classique img {
+    display: block; /* Rend l'image traitée comme un bloc pour permettre le centrage horizontal */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    margin-top: 50px; /* Ajoute un espace au-dessus de l'image pour la faire descendre */
+    width: 400px; /* Agrandit la largeur de l'image */
+    height: auto; /* Ajuste la hauteur pour conserver les proportions */
 }
