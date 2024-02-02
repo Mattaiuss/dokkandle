@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title> Accueil </title>
-        <link rel="stylesheet" href="tuto1.css">
-    </head>
-    <body>
-        <div id="carte"> <!-- grosse boite qui contient tout jusqu'a CACA-->
-            <img src="image/Dragon_Ball_Z_Dokkan_Battle_Logo.png" alt="dokkan">
-            <h1> Devine les personnages de Dokkan Battle. </h1>
-        </div> <!--CACA-->
-        <div id="classique">  <!-- grosse boite qui contient tout jusqu'a PIPI-->
-            <a href="classique.html">
-                <img src="image/classique.png" alt="classique">
-            </a>
-        </div> <!--PIPI-->
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="tuto1.css">
+    <style>
+        #conteneur {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px; /* Hauteur du conteneur central */
+        }
+
+        .carre {
+            width: 100px; /* Largeur du carré */
+            height: 100px; /* Hauteur du carré */
+            background-color: red; /* Couleur du carré (dans cet exemple, rouge) */
+            margin: 10px; /* Marge entre les carrés */
+            cursor: pointer; /* Curseur de la souris en forme de main pour indiquer que les carrés sont cliquables */
+        }
+
+        /* Styles pour le conteneur du bouton classique */
+        #conteneur-classique {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%; /* Largeur du conteneur du bouton classique */
+            height: 100%; /* Hauteur du conteneur du bouton classique */
+            text-align: center; /* Centre le contenu à l'intérieur du conteneur */
+        }
+
+        #classique img {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: auto;
+        }
+    </style>
+    <script>
+        function changerCouleur(carreId) {
+            var carre = document.getElementById(carreId);
+            carre.style.backgroundColor = "green"; // Change la couleur en vert
+        }
+    </script>
+</head>
+<body>
+    <div id="carte"> <!-- grosse boite qui contient tout jusqu'a CACA-->
+        <img src="image/Dragon_Ball_Z_Dokkan_Battle_Logo.png" alt="dokkan">
+        <h1> Devine les personnages de Dokkan Battle. </h1>
+    </div> <!--CACA-->
+    <!-- Conteneur du bouton classique avec une hitbox ajustée -->
+    <div id="conteneur-classique">
+        <a href="classique.html">
+            <img src="image/classique.png" alt="classique">
+        </a>
+    </div>
+    <div id="conteneur">
+        <div class="carre" id="carre1" onclick="changerCouleur('carre1')"></div>
+        <div class="carre" id="carre2" onclick="changerCouleur('carre2')"></div>
+        <div class "carre" id="carre3" onclick="changerCouleur('carre3')"></div>
+    </div>
+</body>
 </html>

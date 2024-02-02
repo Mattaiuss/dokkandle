@@ -30,9 +30,9 @@ body {
 }
 
 #classique img {
-    display: block; /* Rend l'image traitée comme un bloc pour permettre le centrage horizontal */
-    margin: 0 auto; /* Centrer l'image horizontalement */
-    margin-top: 50px; /* Ajoute un espace au-dessus de l'image pour la faire descendre */
-    width: 400px; /* Agrandit la largeur de l'image */
-    height: auto; /* Ajuste la hauteur pour conserver les proportions */
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px; /* Ajustez cette valeur pour déplacer le bouton vers le bas */
+    width: 400px;
+    height: auto;
 }
