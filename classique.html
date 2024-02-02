@@ -4,5 +4,25 @@
         <meta charset="utf-8">
         <title> classique </title>
         <link rel="stylesheet" href="classique.css">
+        <style>
+            .carre {
+            width: 100px; /* Largeur du carré */
+            height: 100px; /* Hauteur du carré */
+            background-color: red; /* Couleur du carré (dans cet exemple, rouge) */
+            margin: 10px; /* Marge entre les carrés */
+            cursor: pointer; /* Curseur de la souris en forme de main pour indiquer que les carrés sont cliquables */
+        }
+        </style>
+            <script>
+                function changerCouleur(carreId) {
+                    var carre = document.getElementById(carreId);
+                    carre.style.backgroundColor = "green"; // Change la couleur en vert
+                }
+            </script>
     </head>
     <h1> CACA </h1>
+    <div id="conteneur">
+        <div class="carre" id="carre1" onclick="changerCouleur('carre1')"></div>
+        <div class="carre" id="carre2" onclick="changerCouleur('carre2')"></div>
+        <div class "carre" id="carre3" onclick="changerCouleur('carre3')"></div>
+    </div>
