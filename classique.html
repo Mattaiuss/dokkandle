@@ -1,28 +1,109 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> classique </title>
-        <link rel="stylesheet" href="classique.css">
-        <style>
-            .carre {
-            width: 100px; /* Largeur du carré */
-            height: 100px; /* Hauteur du carré */
-            background-color: red; /* Couleur du carré (dans cet exemple, rouge) */
-            margin: 10px; /* Marge entre les carrés */
-            cursor: pointer; /* Curseur de la souris en forme de main pour indiquer que les carrés sont cliquables */
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classique</title>
+    <link rel="stylesheet" href="classique.css">
+    <style>
+        /* Styles CSS pour la mise en page de la page */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
-        </style>
-            <script>
-                function changerCouleur(carreId) {
-                    var carre = document.getElementById(carreId);
-                    carre.style.backgroundColor = "green"; // Change la couleur en vert
-                }
-            </script>
-    </head>
-    <h1> CACA </h1>
+
+        #conteneur {
+            display: none; /* Initialement masqué */
+            justify-content: space-around; /* Alignement horizontal des éléments à l'intérieur du conteneur */
+            align-items: center;
+        }
+
+        .carre {
+            /* Styles pour les carrés avec fond rouge, centrés et stylisés */
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        #image-container {
+            /* Styles pour le conteneur d'image */
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        #image-container img {
+            /* Styles pour limiter la largeur de l'image à 100px */
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+    <script>
+        // Fonction pour afficher les éléments du conteneur si la saisie est correcte
+        function afficherElements() {
+            var saisie = document.getElementById("saisieUtilisateur").value.toLowerCase();
+            var conteneur = document.getElementById("conteneur");
+
+            if (saisie === "goku super saiyan tec lr") {
+                conteneur.style.display = "flex"; /* Afficher le conteneur */
+            } else {
+                conteneur.style.display = "none"; /* Masquer le conteneur si la saisie est différente */
+            }
+        }
+
+        // Fonction pour changer le contenu et la couleur d'un carré lorsqu'il est cliqué
+        function changerContenu(carreId) {
+            var carre = document.getElementById(carreId);
+            carre.innerHTML = "correcte";
+            carre.style.backgroundColor = "green";
+        }
+    </script>
+</head>
+<body>
+    <!-- Champ de saisie avec liste déroulante (autocomplete) -->
+    <label for="saisieUtilisateur">Saisissez "goku super saiyan tec lr": </label>
+    <input type="text" id="saisieUtilisateur" list="suggestions" oninput="proposerSuggestion()">
+    <datalist id="suggestions">
+        <option value="goku super saiyan tec lr"></option>
+    </datalist>
+    <button onclick="afficherElements()">Afficher</button>
+
+    <!-- Conteneur masqué avec des éléments à afficher -->
     <div id="conteneur">
-        <div class="carre" id="carre1" onclick="changerCouleur('carre1')"></div>
-        <div class="carre" id="carre2" onclick="changerCouleur('carre2')"></div>
-        <div class "carre" id="carre3" onclick="changerCouleur('carre3')"></div>
+        <div id="image-container">
+            <img src="image/goku_super_saiyan_LR_tec.jpeg" alt="Goku Super Saiyan">
+        </div>
+        <!-- Carrés avec la classe "carre" et un identifiant unique, cliquables -->
+        <div class="carre" id="carre1" onclick="changerContenu('carre1')"></div>
+        <div class="carre" id="carre2" onclick="changerContenu('carre2')"></div>
+        <div class="carre" id="carre3" onclick="changerContenu('carre3')"></div>
+        <div class="carre" id="carre4" onclick="changerContenu('carre4')"></div>
+        <div class="carre" id="carre5" onclick="changerContenu('carre5')"></div>
     </div>
+    
+    <script>
+        // Fonction pour proposer des suggestions dans la liste déroulante
+        function proposerSuggestion() {
+            var saisie = document.getElementById("saisieUtilisateur").value.toLowerCase();
+            var suggestionList = document.getElementById("suggestions");
+
+            // Effacer les suggestions actuelles
+            suggestionList.innerHTML = "";
+
+            // Ajouter la suggestion si elle commence par la saisie
+            if ("goku super saiyan tec lr".startsWith(saisie)) {
+                suggestionList.innerHTML += "<option value='goku super saiyan tec lr'></option>";
+            }
+        }
+    </script>
+</body>
+</html>
