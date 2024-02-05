@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokkandle - Classic</title>
+    <link rel="icon" href="img/assets/favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Dokkandle - Chaque jour, tentez de trouver la carte dokkan en fonction de ses attributs !"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="image-button">
+        <img
+          class="content"
+          src="img/assets/dokkan_logo.png"
+          alt="Dokkandle"
+          id="dokkan-title-classic"
+        />
+      </a>
+    </header>
+    <div class="dark-overlay"></div>
+    <div class="content">
+      <input
+        type="search"
+        id="search"
+        placeholder="Rechercher un nom de carte..."
+        onchange="test"
+      />
+      <div class="grid-container">
+        <div class="grid-item">Carte</div>
+        <div class="grid-item">Genre</div>
+        <div class="grid-item">Classe</div>
+        <div class="grid-item">Rareté</div>
+        <div class="grid-item">Type</div>
+        <div class="grid-item">Race</div>
+        <div class="grid-item">Année</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

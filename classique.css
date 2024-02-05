@@ -1,6 +1,0 @@
-#conteneur {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Cela assure que le conteneur prend toute la hauteur de la vue */
-}
