@@ -8,7 +8,7 @@
   "Type": "Int",
   "Race": "Saiyan \/ Saiyan de sang-mêlé",
   "Date de sortie": 2024,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_&_Vegeta_Super_Saiyan_&_Trunks_Super_Saiyan_(jeune)_Int_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_&_Vegeta_Super_Saiyan_&_Trunks_Super_Saiyan_(jeune)_Int_LR.png"
  },
  {
   "ID": 2,
@@ -19,7 +19,7 @@
   "Type": "Pui",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Gohan_Super_Saiyan_(futur).png"
+  "Nom de l'image": "img/characters/Son_Gohan_Super_Saiyan_(futur).png"
  },
  {
   "ID": 3,
@@ -30,7 +30,7 @@
   "Type": "End",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2023,
-  "Nom de l’image": "Trunks_Super_Saiyan_(futur)_End_LR.png"
+  "Nom de l'image": "img/characters/Trunks_Super_Saiyan_(futur)_End_LR.png"
  },
  {
   "ID": 4,
@@ -41,7 +41,7 @@
   "Type": "Tec",
   "Race": "Divin",
   "Date de sortie": 2023,
-  "Nom de l’image": "Zamasu_:_Fusion_Tec_LR.png"
+  "Nom de l'image": "img/characters/Zamasu_:_Fusion_Tec_LR.png"
  },
  {
   "ID": 5,
@@ -52,7 +52,7 @@
   "Type": "Agi",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_divin_SS_&_Vegeta_Super_Saiyan_divin_SS_Agi_Lr.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_divin_SS_&_Vegeta_Super_Saiyan_divin_SS_Agi_Lr.png"
  },
  {
   "ID": 6,
@@ -63,7 +63,7 @@
   "Type": "Agi",
   "Race": "Dragon Maléfique",
   "Date de sortie": 2024,
-  "Nom de l’image": "Oméga_Shenron_agi_Lr.png"
+  "Nom de l'image": "img/characters/Oméga_Shenron_agi_Lr.png"
  },
  {
   "ID": 7,
@@ -74,7 +74,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_4.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_4.png"
  },
  {
   "ID": 8,
@@ -85,7 +85,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Goku_Int_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Int_LR.png"
  },
  {
   "ID": 9,
@@ -96,7 +96,7 @@
   "Type": "Agi",
   "Race": "Cyborg",
   "Date de sortie": 2023,
-  "Nom de l’image": "Dr._Willow_Agi_LR.png"
+  "Nom de l'image": "img/characters/Dr._Willow_Agi_LR.png"
  },
  {
   "ID": 10,
@@ -107,7 +107,7 @@
   "Type": "Pui",
   "Race": "Humain",
   "Date de sortie": 2023,
-  "Nom de l’image": "Bulma_(enfant)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Bulma_(enfant)_Pui_LR.png"
  },
  {
   "ID": 11,
@@ -118,7 +118,7 @@
   "Type": "Agi",
   "Race": "Autre",
   "Date de sortie": 2023,
-  "Nom de l’image": "Boo_(super)_Agi_LR.png"
+  "Nom de l'image": "img/characters/Boo_(super)_Agi_LR.png"
  },
  {
   "ID": 12,
@@ -129,7 +129,7 @@
   "Type": "Int",
   "Race": "Autre",
   "Date de sortie": 2023,
-  "Nom de l’image": "Babidi_Int_LR.png"
+  "Nom de l'image": "img/characters/Babidi_Int_LR.png"
  },
  {
   "ID": 13,
@@ -140,7 +140,7 @@
   "Type": "Agi",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Goku_Agi_Lr.png"
+  "Nom de l'image": "img/characters/Son_Goku_Agi_Lr.png"
  },
  {
   "ID": 14,
@@ -151,7 +151,7 @@
   "Type": "Int",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_gohan_Int_LR.png"
+  "Nom de l'image": "img/characters/Son_gohan_Int_LR.png"
  },
  {
   "ID": 15,
@@ -162,7 +162,7 @@
   "Type": "Pui",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Goku_super_saiyan_PUI_LR.png"
+  "Nom de l'image": "img/characters/Goku_super_saiyan_PUI_LR.png"
  },
  {
   "ID": 16,
@@ -173,7 +173,7 @@
   "Type": "Pui",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Son_Goku_(GT)_&_Vegeta_Super_Saiyan_4_Pui_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_(GT)_&_Vegeta_Super_Saiyan_4_Pui_LR.png"
  },
  {
   "ID": 17,
@@ -184,7 +184,7 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Goku_super_saiyan _3_&_Vegeta_super_saiyan_2_end_LR.png"
+  "Nom de l'image": "img/characters/Goku_super_saiyan _3_&_Vegeta_super_saiyan_2_end_LR.png"
  },
  {
   "ID": 18,
@@ -195,7 +195,7 @@
   "Type": "Tec",
   "Race": "Autre",
   "Date de sortie": 2023,
-  "Nom de l’image": "Hatchiyack_(forme géante)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Hatchiyack_(forme géante)_Tec_LR.png"
  },
  {
   "ID": 19,
@@ -206,7 +206,7 @@
   "Type": "Int",
   "Race": "Humain",
   "Date de sortie": 2023,
-  "Nom de l’image": "Jackie_Chun_Int_LR.png"
+  "Nom de l'image": "img/characters/Jackie_Chun_Int_LR.png"
  },
  {
   "ID": 20,
@@ -217,7 +217,7 @@
   "Type": "Tec",
   "Race": "Namek",
   "Date de sortie": 2022,
-  "Nom de l’image": "Piccolo_(éveil de puissance)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Piccolo_(éveil de puissance)_Tec_LR.png"
  },
  {
   "ID": 21,
@@ -228,7 +228,7 @@
   "Type": "End",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Gohan_ultime.png"
+  "Nom de l'image": "img/characters/Son_Gohan_ultime.png"
  },
  {
   "ID": 22,
@@ -239,7 +239,7 @@
   "Type": "End",
   "Race": "Autre",
   "Date de sortie": 2022,
-  "Nom de l’image": "Métal_Cooler_End_LR.png"
+  "Nom de l'image": "img/characters/Métal_Cooler_End_LR.png"
  },
  {
   "ID": 23,
@@ -250,7 +250,7 @@
   "Type": "Agi",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_&_Vegeta_Super_Saiyan_Agi_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_&_Vegeta_Super_Saiyan_Agi_LR.png"
  },
  {
   "ID": 24,
@@ -261,7 +261,7 @@
   "Type": "Tec",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Goku_super_saiyan_TEC_LR.png"
+  "Nom de l'image": "img/characters/Goku_super_saiyan_TEC_LR.png"
  },
  {
   "ID": 25,
@@ -272,7 +272,7 @@
   "Type": "Pui",
   "Race": "Autre",
   "Date de sortie": 2022,
-  "Nom de l’image": "Cooler_(forme finale)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Cooler_(forme finale)_Pui_LR.png"
  },
  {
   "ID": 26,
@@ -283,7 +283,7 @@
   "Type": "Int",
   "Race": "Humain",
   "Date de sortie": 2022,
-  "Nom de l’image": "Tenshinhan_Int_LR.png"
+  "Nom de l'image": "img/characters/Tenshinhan_Int_LR.png"
  },
  {
   "ID": 27,
@@ -294,7 +294,7 @@
   "Type": "Int",
   "Race": "Divin",
   "Date de sortie": 2022,
-  "Nom de l’image": "Zamasu_:_Fusion_Tec_LR.png"
+  "Nom de l'image": "img/characters/Zamasu_:_Fusion_Tec_LR.png"
  },
  {
   "ID": 28,
@@ -305,7 +305,7 @@
   "Type": "Int",
   "Race": "Saiyan \/ Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Vegeta_Super_Saiyan_divin_SS_&_Trunks_Super_Saiyan_(futur).png"
+  "Nom de l'image": "img/characters/Vegeta_Super_Saiyan_divin_SS_&_Trunks_Super_Saiyan_(futur).png"
  },
  {
   "ID": 29,
@@ -316,7 +316,7 @@
   "Type": "Agi",
   "Race": "Autre",
   "Date de sortie": 2022,
-  "Nom de l’image": "Golden_Freezer_Agi_LR.png"
+  "Nom de l'image": "img/characters/Golden_Freezer_Agi_LR.png"
  },
  {
   "ID": 30,
@@ -327,7 +327,7 @@
   "Type": "Tec",
   "Race": "Saiyan \/ Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_&_Son_Gohan_Super_Saiyan_(enfant)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_&_Son_Gohan_Super_Saiyan_(enfant)_Tec_LR.png"
  },
  {
   "ID": 31,
@@ -338,7 +338,7 @@
   "Type": "End",
   "Race": "Saiyan \/ Namek",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_&_Piccolo_End_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_&_Piccolo_End_LR.png"
  },
  {
   "ID": 32,
@@ -349,7 +349,7 @@
   "Type": "Tec",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Gohan_(jeune)_&_Son_Goten_(petit)_&_Trunks_(petit)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Gohan_(jeune)_&_Son_Goten_(petit)_&_Trunks_(petit)_Tec_LR.png"
  },
  {
   "ID": 33,
@@ -360,7 +360,7 @@
   "Type": "Agi",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_Jr_Super_Saiyan_&_Vegeta_Jr_Super_Saiyan.png"
+  "Nom de l'image": "img/characters/Son_Goku_Jr_Super_Saiyan_&_Vegeta_Jr_Super_Saiyan.png"
  },
  {
   "ID": 34,
@@ -371,7 +371,7 @@
   "Type": "Pui",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_(Kaioken)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_(Kaioken)_Pui_LR.png"
  },
  {
   "ID": 35,
@@ -382,7 +382,7 @@
   "Type": "Tec",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Vegeta_(gorille)_tec_LR.png"
+  "Nom de l'image": "img/characters/Vegeta_(gorille)_tec_LR.png"
  },
  {
   "ID": 36,
@@ -393,7 +393,7 @@
   "Type": "Agi",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Gohan_Super_Saiyan_(futur)_&_Trunks_(enfant)_(futur)_Agi_LR.png"
+  "Nom de l'image": "img/characters/Son_Gohan_Super_Saiyan_(futur)_&_Trunks_(enfant)_(futur)_Agi_LR.png"
  },
  {
   "ID": 37,
@@ -404,7 +404,7 @@
   "Type": "Pui",
   "Race": "Autre \/ saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Hit_&_Son_Goku_Super_Saiyan_divin_Pui_LR.png"
+  "Nom de l'image": "img/characters/Hit_&_Son_Goku_Super_Saiyan_divin_Pui_LR.png"
  },
  {
   "ID": 38,
@@ -415,7 +415,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Vegeta_Int_LR.png"
+  "Nom de l'image": "img/characters/Vegeta_Int_LR.png"
  },
  {
   "ID": 39,
@@ -426,7 +426,7 @@
   "Type": "Agi",
   "Race": "Humain \/ Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Krillin_&_Son_Gohan_(petit).png"
+  "Nom de l'image": "img/characters/Krillin_&_Son_Gohan_(petit).png"
  },
  {
   "ID": 40,
@@ -437,7 +437,7 @@
   "Type": "Pui",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Gohan_(petit)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Son_Gohan_(petit)_Pui_LR.png"
  },
  {
   "ID": 41,
@@ -448,7 +448,7 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_End_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_End_LR.png"
  },
  {
   "ID": 42,
@@ -459,7 +459,7 @@
   "Type": "Agi",
   "Race": "Autre",
   "Date de sortie": 2021,
-  "Nom de l’image": "Freezer_(pleine puissance)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Freezer_(pleine puissance)_Pui_LR.png"
  },
  {
   "ID": 43,
@@ -470,7 +470,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Goku_super_saiyan_INT_LR.png"
+  "Nom de l'image": "img/characters/Goku_super_saiyan_INT_LR.png"
  },
  {
   "ID": 44,
@@ -481,7 +481,7 @@
   "Type": "End",
   "Race": "Autre",
   "Date de sortie": 2022,
-  "Nom de l’image": "Super_Janemba_End_LR.png"
+  "Nom de l'image": "img/characters/Super_Janemba_End_LR.png"
  },
  {
   "ID": 45,
@@ -492,7 +492,7 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_4_&_Vegeta_Super_Saiyan_4.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_4_&_Vegeta_Super_Saiyan_4.png"
  },
  {
   "ID": 46,
@@ -503,7 +503,7 @@
   "Type": "Tec",
   "Race": "Saiyan",
   "Date de sortie": 2022,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_divin_&_Vegeta_Super_Saiyan_divin_Tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_divin_&_Vegeta_Super_Saiyan_divin_Tec_LR.png"
  },
  {
   "ID": 47,
@@ -514,7 +514,7 @@
   "Type": "Pui",
   "Race": "Humain",
   "Date de sortie": 2021,
-  "Nom de l’image": "Tao_Pai_Pai_Pui_LR.png"
+  "Nom de l'image": "img/characters/Tao_Pai_Pai_Pui_LR.png"
  },
  {
   "ID": 48,
@@ -525,7 +525,7 @@
   "Type": "Tec",
   "Race": "Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Son_Goku_(ange)_&_Vegeta_(ange)_tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_(ange)_&_Vegeta_(ange)_tec_LR.png"
  },
  {
   "ID": 49,
@@ -536,7 +536,7 @@
   "Type": "Int",
   "Race": "Namek \/ Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Son_Goku_&_Piccolo_Int_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_&_Piccolo_Int_LR.png"
  },
  {
   "ID": 50,
@@ -547,7 +547,7 @@
   "Type": "Tec",
   "Race": "Hybride Humain Artificiel",
   "Date de sortie": 2021,
-  "Nom de l’image": "Super_C-17_Tec_LR.png"
+  "Nom de l'image": "img/characters/Super_C-17_Tec_LR.png"
  },
  {
   "ID": 51,
@@ -558,7 +558,7 @@
   "Type": "Pui",
   "Race": "Konatsien",
   "Date de sortie": 2021,
-  "Nom de l’image": "Tapion_&_Minoshia_Pui_LR.png"
+  "Nom de l'image": "img/characters/Tapion_&_Minoshia_Pui_LR.png"
  },
  {
   "ID": 52,
@@ -569,7 +569,7 @@
   "Type": "Int",
   "Race": "Dragon Maléfique",
   "Date de sortie": 2022,
-  "Nom de l’image": "Équipe_des_dragons_maléfiques_Int_LR.png"
+  "Nom de l'image": "img/characters/Équipe_des_dragons_maléfiques_Int_LR.png"
  },
  {
   "ID": 53,
@@ -580,7 +580,7 @@
   "Type": "Pui",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2021,
-  "Nom de l’image": "Trunks_(jeune)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Trunks_(jeune)_Pui_LR.png"
  },
  {
   "ID": 54,
@@ -591,7 +591,7 @@
   "Type": "End",
   "Race": "Humain",
   "Date de sortie": 2021,
-  "Nom de l’image": "Kamesennin_End_LR.png"
+  "Nom de l'image": "img/characters/Kamesennin_End_LR.png"
  },
  {
   "ID": 55,
@@ -602,7 +602,7 @@
   "Type": "Int",
   "Race": "Hybride Humain Artificiel",
   "Date de sortie": 2021,
-  "Nom de l’image": "C-17_(équipe_Univers_7)_Int_LR.ong"
+  "Nom de l'image": "img/characters/C-17_(équipe_Univers_7)_Int_LR.ong"
  },
  {
   "ID": 56,
@@ -613,7 +613,7 @@
   "Type": "End",
   "Race": "Autre \/ Hybride Humain Artificiel",
   "Date de sortie": 2021,
-  "Nom de l’image": "Golden_Freezer_(ange)_&_C-17_End_LR.png"
+  "Nom de l'image": "img/characters/Golden_Freezer_(ange)_&_C-17_End_LR.png"
  },
  {
   "ID": 57,
@@ -624,7 +624,7 @@
   "Type": "Tec",
   "Race": "Saiyan de sang-mêlé",
   "Date de sortie": 2020,
-  "Nom de l’image": "Son_Gohan_Super_Saiyan_2_(enfant)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Gohan_Super_Saiyan_2_(enfant)_Tec_LR.png"
  },
  {
   "ID": 58,
@@ -635,7 +635,7 @@
   "Type": "End",
   "Race": "Autre",
   "Date de sortie": 2021,
-  "Nom de l’image": "Babidi_&_Boo_End_LR.png"
+  "Nom de l'image": "img/characters/Babidi_&_Boo_End_LR.png"
  },
  {
   "ID": 59,
@@ -646,7 +646,7 @@
   "Type": "Pui",
   "Race": "Autre",
   "Date de sortie": 2021,
-  "Nom de l’image": "Équipe_Thalès_Pui_LR.png"
+  "Nom de l'image": "img/characters/Équipe_Thalès_Pui_LR.png"
  },
  {
   "ID": 60,
@@ -657,7 +657,7 @@
   "Type": "Pui",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Son_Goku_&_Vegeta_(ange)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_&_Vegeta_(ange)_Pui_LR.png"
  },
  {
   "ID": 61,
@@ -668,7 +668,7 @@
   "Type": "End",
   "Race": "Autre",
   "Date de sortie": 2020,
-  "Nom de l’image": "Boo_(Gotenks)_End_LR.png"
+  "Nom de l'image": "img/characters/Boo_(Gotenks)_End_LR.png"
  },
  {
   "ID": 62,
@@ -679,7 +679,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Vegeta_Super_Saiyan_divin_SS_évolué_Int_LR.png"
+  "Nom de l'image": "img/characters/Vegeta_Super_Saiyan_divin_SS_évolué_Int_LR.png"
  },
  {
   "ID": 63,
@@ -690,7 +690,7 @@
   "Type": "Agi",
   "Race": "Saiyan",
   "Date de sortie": 2021,
-  "Nom de l’image": "Son_Goku_(Ultra_Instinct)_Agi_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_(Ultra_Instinct)_Agi_LR.png"
  },
  {
   "ID": 64,
@@ -701,7 +701,7 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Vegeta_Super_Saiyan_2_(ange)_End_LR.png"
+  "Nom de l'image": "img/characters/Vegeta_Super_Saiyan_2_(ange)_End_LR.png"
  },
  {
   "ID": 65,
@@ -712,7 +712,7 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Son_Goku_Super_Saiyan_divin_SS_(Kaioken)_&_Vegeta_Super_Saiyan_divin_SS_évolué_End_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_Super_Saiyan_divin_SS_(Kaioken)_&_Vegeta_Super_Saiyan_divin_SS_évolué_End_LR.png"
  },
  {
   "ID": 66,
@@ -723,7 +723,7 @@
   "Type": "Tec",
   "Race": "Autre",
   "Date de sortie": 2021,
-  "Nom de l’image": "Jiren_(pleine_puissance)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Jiren_(pleine_puissance)_Tec_LR.png"
  },
  {
   "ID": 67,
@@ -734,7 +734,7 @@
   "Type": "Pui",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Son_Goku_(Signes_de_l'Ultra_Instinct)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_(Signes_de_l'Ultra_Instinct)_Pui_LR.png"
  },
  {
   "ID": 68,
@@ -745,7 +745,7 @@
   "Type": "Tec",
   "Race": "Saiyan \/ Saiyan de sang-mêlé",
   "Date de sortie": 2020,
-  "Nom de l’image": "Son_Goku_&_Son_Gohan_(petit)_Tec_LR.png"
+  "Nom de l'image": "img/characters/Son_Goku_&_Son_Gohan_(petit)_Tec_LR.png"
  },
  {
   "ID": 69,
@@ -756,7 +756,7 @@
   "Type": "End",
   "Race": "Humain",
   "Date de sortie": 2020,
-  "Nom de l’image": "Krillin_End_LR.png"
+  "Nom de l'image": "img/characters/Krillin_End_LR.png"
  },
  {
   "ID": 70,
@@ -767,7 +767,7 @@
   "Type": "Agi",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Nappa_Vegeta_Agi_LR.png"
+  "Nom de l'image": "img/characters/Nappa_Vegeta_Agi_LR.png"
  },
  {
   "ID": 71,
@@ -778,7 +778,7 @@
   "Type": "Int",
   "Race": "Saiyan",
   "Date de sortie": 2020,
-  "Nom de l’image": "Équipe_Bardock_Int_LR.png"
+  "Nom de l'image": "img/characters/Équipe_Bardock_Int_LR.png"
  },
  {
   "ID": 72,
@@ -789,7 +789,7 @@
   "Type": "Pui",
   "Race": "Divin",
   "Date de sortie": 2020,
-  "Nom de l’image": "Zamasu_(Son_Goku)_Pui_LR.png"
+  "Nom de l'image": "img/characters/Zamasu_(Son_Goku)_Pui_LR.png"
  },
  {
   "ID": 73,
@@ -800,6 +800,6 @@
   "Type": "End",
   "Race": "Saiyan",
   "Date de sortie": 2023,
-  "Nom de l’image": "Goku_super_saiyan_divin_END_UR.png"
+  "Nom de l'image": "img/characters/Goku_super_saiyan_divin_END_UR.png"
  }
 ]
