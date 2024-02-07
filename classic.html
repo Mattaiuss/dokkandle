@@ -31,8 +31,9 @@
       <input
         type="search"
         id="search"
+        name="searchinput"
         placeholder="Rechercher un nom de carte..."
-        onchange="test"
+        onchange="fetchData(this.value)"
       />
       <div class="grid-container">
         <div class="grid-item">Carte</div>

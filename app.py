@@ -3,6 +3,11 @@ import json
 
 app = Flask(__name__)
 
+@app.after_request
+def add_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 @app.route('/', methods=['GET'])
 def get_data():
     try:
