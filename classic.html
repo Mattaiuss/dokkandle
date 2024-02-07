@@ -29,12 +29,14 @@
     <div class="dark-overlay"></div>
     <div class="content">
       <input
-        type="search"
-        id="search"
-        name="searchinput"
-        placeholder="Rechercher un nom de carte..."
-        onchange="fetchData(this.value)"
+      type="search"
+      id="search"
+      name="searchinput"
+      placeholder="Rechercher un nom de carte..."
+      onchange="fetchData(this.value)"
+      onkeypress="showOccurences(this.value)"
       />
+      <div id="occurences" class="occurences"></div>
       <div class="grid-container">
         <div class="grid-item">Carte</div>
         <div class="grid-item">Genre</div>
@@ -47,4 +49,4 @@
     </div>
     <script src="script.js"></script>
   </body>
-</html>
+  </html>
