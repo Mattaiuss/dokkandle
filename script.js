@@ -33,20 +33,21 @@ function fetchData(value) {
     .then(response => response.text())
     .then(result => {console.log(result);
       let data = JSON.parse(result);
-      document.getElementById("res").innerHTML += "<br>";
+      document.getElementById("res").innerHTML += "<br><div class='card'>";
       document.getElementById("res").innerHTML += data["Nom"];
       document.getElementById("res").innerHTML += "&nbsp;";
       document.getElementById("res").innerHTML += data["Genre"];
       document.getElementById("res").innerHTML += "&nbsp;";
       document.getElementById("res").innerHTML += data["Classe"];
       document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Rarete"];
+      document.getElementById("res").innerHTML += data["Rareté"];
       document.getElementById("res").innerHTML += "&nbsp;";
       document.getElementById("res").innerHTML += data["Type"];
       document.getElementById("res").innerHTML += "&nbsp;";
       document.getElementById("res").innerHTML += data["Race"];
       document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Anne"];
+      document.getElementById("res").innerHTML += data["Année"];
+      document.getElementById("res").innerHTML += "</div>";
     })
     .catch(error => console.log('error', error));
 }

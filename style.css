@@ -114,3 +114,14 @@ body {
 .choice:hover {
   background-color: #f9b72a;
 }
+
+.card {
+  position: ;
+  background-color: #00ff0d;
+  border: 3px solid #ffffff;
+  padding: 10px;
+  margin-top: 50px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
