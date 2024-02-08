@@ -9,7 +9,7 @@ body {
 }
 
 .dark-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -92,20 +92,25 @@ body {
   padding-bottom: 8px;
   text-align: center;
 }
+
 .occurences {
-  font-size: 40px;
-  color: #f9b72a;
-  margin-top: 5px;
-  border: solid 2px #f9b72a;
-  font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 600px;
+  margin-right: 600px;
+  border: solid 2px #ffffff00;
+  font-family: "Inter", sans-serif;
+  background-color: #0000003f;
 }
-.choice{
-  width: 40px;
-  height: 40px;
-  font-size: 2vw;
-  font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #f9b72a;
-  border: solid 2px #f9b72a;
+
+.choice {
+  position: absolute;
+  width: 630px;
+  height: 20px;
+  background-color: #ffffff00;
+  border: none;
+}
+
+.choice:hover {
+  background-color: #f9b72a;
 }
