@@ -1,11 +1,21 @@
 from flask import Flask, jsonify
+from datetime import datetime
+import random
 import json
 import requests
-Res_url = "http://127.0.0.1:5000/get-first-character"
+Res_url = "http://127.0.0.1:5000/get-today-character"
 payload = {}
 headers = {}
 
 app = Flask(__name__)
+
+@app.before_first_request
+def before_first_request():
+    global date_global
+    global guess
+    date_global = datetime.today().strftime('%Y-%m-%d')
+    guess = random.randint(0, 73)
+    print(date_global)
 
 @app.after_request
 def add_headers(response):
@@ -38,18 +48,24 @@ def get_info(name):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-@app.route('/get-first-character', methods=['GET'])
+@app.route('/get-today-character', methods=['GET'])
 def get_first_character():
+    date = globals()['date_global']
     with open('data.json', 'r') as file:
         data = json.load(file)
-    first_character = data[0]  # Sélectionne le premier personnage
-    return jsonify(first_character), 200
+    if (date != datetime.today().strftime('%Y-%m-%d')):
+        globals()['guess'] = random.randint(0, len(data) - 1)
+        date = datetime.today().strftime('%Y-%m-%d')
+    today_character = data[globals()['guess']]
+    # Sélectionne le personnage du jour
+    return jsonify(today_character), 200
 
 def compare_choice(choice):
     comp = {'Nom': False, 'Genre': False,
             'Classe': False, 'Rarete': False,
               'Type': False, 'Race': False,
-                'Anne': False}
+                'Anne': False, 'Image': "",
+                'choose': choice}
     result = requests.get(Res_url, headers=headers, data=payload)
     data = result.json()
     print(data['Nom'])
@@ -68,6 +84,7 @@ def compare_choice(choice):
         comp['Race'] = True
     if data['Date de sortie'] == choice['Date de sortie']:
         comp['Anne'] = True
+    comp['Image'] = choice["Nom de l'image"]
     return jsonify(comp), 200
 
 if __name__ == '__main__':

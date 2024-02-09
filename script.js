@@ -33,21 +33,47 @@ function fetchData(value) {
     .then(response => response.text())
     .then(result => {console.log(result);
       let data = JSON.parse(result);
-      document.getElementById("res").innerHTML += "<br><div class='card'>";
-      document.getElementById("res").innerHTML += data["Nom"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Genre"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Classe"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Rareté"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Type"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Race"];
-      document.getElementById("res").innerHTML += "&nbsp;";
-      document.getElementById("res").innerHTML += data["Année"];
-      document.getElementById("res").innerHTML += "</div>";
+      if (data["Nom"] == undefined) {
+        return;
+      }
+      document.getElementById("res").innerHTML += `<img src='${data["Image"]}' alt='Image de la carte' class='card_img'>`;
+      //document.getElementById("res").innerHTML += data["Nom"];
+      if (data["Genre"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Genre"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Genre"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Genre"];
+      if (data["Classe"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Classe"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Classe"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Classe"];
+      if (data["Rarete"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Rarete"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Rarete"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Rarete"];
+      if (data["Type"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Type"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Type"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Type"];
+      if (data["Race"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Race"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Race"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Race"];
+      if (data["Anne"] == true) {
+        document.getElementById("res").innerHTML += `<div class='card_true'>${data["choose"]["Date de sortie"]}</div>`;
+      } else {
+        document.getElementById("res").innerHTML += `<div class='card_false'>${data["choose"]["Date de sortie"]}</div>`;
+      }
+      //document.getElementById("res").innerHTML += data["Anne"];
     })
     .catch(error => console.log('error', error));
 }
